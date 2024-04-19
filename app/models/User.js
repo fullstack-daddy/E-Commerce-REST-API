@@ -25,12 +25,12 @@ const userSchema = mongoose.Schema(
     status: {
       type: String,
       required: true,
-      trim: false,
+      trim: true,
     },
     role: {
       type: String,
       required: true,
-      trim: false,
+      trim: true,
     },
   },
   {
